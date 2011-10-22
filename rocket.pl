@@ -1,4 +1,5 @@
-#!/usr/local/bin/perl
+#!/cygdrive/c/Perl/bin/perl.exe
+
 ###################################################################
 #                                                                 #
 # rocket.pl - Land a rocket ship on a moving platform             #
@@ -416,9 +417,9 @@ sub new {
         -background => 'black'
     )->pack();
 
-#    my $image = $MW->Photo(-format => 'jpeg', -file => "$main::ROCKET_DIR/stars.jpg");
+    my $image = $MW->Photo(-format => 'bmp', -file => "$main::ROCKET_DIR/stars.bmp");
 
-    #    $canvas->createImage(250,250,-image => $image);
+        $canvas->createImage(250,250,-image => $image);
 
     $this = bless { 'canvas' => $canvas }, $class;
     return $this;
