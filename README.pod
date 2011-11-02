@@ -1,0 +1,74 @@
+=head1 NAME
+
+Rocket
+
+=head1 DESCRIPTION
+
+This is a game, the object of which is to land a rocket on a moving platform.
+
+=head1 README
+
+Unzip the archive into its own directory.  cd to the directory.
+
+Usage:
+
+perl rocket.pl
+
+You fly the rocket with the left, right, and down keys.
+Other keys:
+<p>  - pause
+<x>  - exit
+<n>  - new game
+<up> - God mode?
+
+=head1 PREREQUISITES
+
+This script requires C<Tk>, C<Tk::Dialog>, C<Tk::JPEG>, and C<Win32::Sound> (for sound under Win32 - no sound support
+for Unix).
+
+=head1 OSNAMES
+
+Win32, Unix
+
+=head1 SCRIPT CATEGORIES
+
+Win32
+Games
+
+=head1 VERSION
+
+1.03
+
+=head1 HISTORY
+
+Version 1.03
+    - Sacrifice constants for speed
+Version 1.02
+    - Cleaned up code
+Version 1.01
+    - Added autopilot AI
+    - Cleaned up code
+Version 1.00
+    - Finally stable (whew)
+
+=head1 AUTHOR
+
+David Bradford davembradford@gmail.com
+
+=head1 COPYRIGHT
+
+Copyright (c) 2003 David Bradford.  All rights reserved.  This program is free software;
+you can redistribute it and/or modify it under the same terms as Perl itself; however, you
+must leave this copyright statement intact.
+
+=head1 DATE
+
+May 1, 2003
+
+=head1 SOURCE
+
+This distribution can also be found at the author's web site
+
+http://www.tinypig.com
+
+=cut
