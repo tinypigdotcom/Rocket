@@ -718,9 +718,9 @@ our $SUCCESS_PLAY         = 8;
 our $SUCCESS_POINTS       = 100;
 our $TICK_DELAY           = 15;
 our $INI_FILE             = 'rocket.ini';
-our $CRASH_SOUND          = 'arcade11.wav';
-our $EXTRA_GUY_SOUND      = 'arcade07.wav';
-our $LANDING_SOUND        = 'arcade02.wav';
+our $CRASH_SOUND          = 'crash.wav';
+our $EXTRA_GUY_SOUND      = 'bonus.wav';
+our $LANDING_SOUND        = 'landing.wav';
 
 # Initialization
 my $auto_down      = 0;
